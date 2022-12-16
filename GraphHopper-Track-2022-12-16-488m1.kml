@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>waypoints</name>
+</Folder>
+<Folder><name>routes</name>
+</Folder>
+<Folder><name>tracks</name>
+  <Placemark>
+	<name>GraphHopper Track</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><LineString><coordinates>77.65143,12.9066 77.65154,12.90725 77.65162,12.90742 77.65171,12.90778 77.65184,12.90853 77.65103,12.90861 77.64937,12.90872</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+<Folder><name>route_points</name>
+</Folder>
+<Folder><name>track_points</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#track_points">
+		<SimpleData name="track_fid">0</SimpleData>
+		<SimpleData name="track_seg_id">0</SimpleData>
+		<SimpleData name="track_seg_point_id">0</SimpleData>
+		<SimpleData name="ele">904.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.65143,12.9066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#track_points">
+		<SimpleData name="track_fid">0</SimpleData>
+		<SimpleData name="track_seg_id">0</SimpleData>
+		<SimpleData name="track_seg_point_id">1</SimpleData>
+		<SimpleData name="ele">905.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.65154,12.90725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#track_points">
+		<SimpleData name="track_fid">0</SimpleData>
+		<SimpleData name="track_seg_id">0</SimpleData>
+		<SimpleData name="track_seg_point_id">2</SimpleData>
+		<SimpleData name="ele">905.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.65162,12.90742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#track_points">
+		<SimpleData name="track_fid">0</SimpleData>
+		<SimpleData name="track_seg_id">0</SimpleData>
+		<SimpleData name="track_seg_point_id">3</SimpleData>
+		<SimpleData name="ele">906.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.65171,12.90778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#track_points">
+		<SimpleData name="track_fid">0</SimpleData>
+		<SimpleData name="track_seg_id">0</SimpleData>
+		<SimpleData name="track_seg_point_id">4</SimpleData>
+		<SimpleData name="ele">906.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.65184,12.90853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#track_points">
+		<SimpleData name="track_fid">0</SimpleData>
+		<SimpleData name="track_seg_id">0</SimpleData>
+		<SimpleData name="track_seg_point_id">5</SimpleData>
+		<SimpleData name="ele">904</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.65103,12.90861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#track_points">
+		<SimpleData name="track_fid">0</SimpleData>
+		<SimpleData name="track_seg_id">0</SimpleData>
+		<SimpleData name="track_seg_point_id">6</SimpleData>
+		<SimpleData name="ele">902.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.64937,12.90872</coordinates></Point>
+  </Placemark>
+</Folder>
+<Schema name="tracks" id="tracks">
+	<SimpleField name="cmt" type="string"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="src" type="string"></SimpleField>
+	<SimpleField name="link1_href" type="string"></SimpleField>
+	<SimpleField name="link1_text" type="string"></SimpleField>
+	<SimpleField name="link1_type" type="string"></SimpleField>
+	<SimpleField name="link2_href" type="string"></SimpleField>
+	<SimpleField name="link2_text" type="string"></SimpleField>
+	<SimpleField name="link2_type" type="string"></SimpleField>
+	<SimpleField name="number" type="int"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+</Schema>
+<Schema name="track_points" id="track_points">
+	<SimpleField name="track_fid" type="int"></SimpleField>
+	<SimpleField name="track_seg_id" type="int"></SimpleField>
+	<SimpleField name="track_seg_point_id" type="int"></SimpleField>
+	<SimpleField name="ele" type="float"></SimpleField>
+	<SimpleField name="time" type="string"></SimpleField>
+	<SimpleField name="magvar" type="float"></SimpleField>
+	<SimpleField name="geoidheight" type="float"></SimpleField>
+	<SimpleField name="cmt" type="string"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="src" type="string"></SimpleField>
+	<SimpleField name="link1_href" type="string"></SimpleField>
+	<SimpleField name="link1_text" type="string"></SimpleField>
+	<SimpleField name="link1_type" type="string"></SimpleField>
+	<SimpleField name="link2_href" type="string"></SimpleField>
+	<SimpleField name="link2_text" type="string"></SimpleField>
+	<SimpleField name="link2_type" type="string"></SimpleField>
+	<SimpleField name="sym" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="fix" type="string"></SimpleField>
+	<SimpleField name="sat" type="int"></SimpleField>
+	<SimpleField name="hdop" type="float"></SimpleField>
+	<SimpleField name="vdop" type="float"></SimpleField>
+	<SimpleField name="pdop" type="float"></SimpleField>
+	<SimpleField name="ageofdgpsdata" type="float"></SimpleField>
+	<SimpleField name="dgpsid" type="int"></SimpleField>
+</Schema>
+</Document></kml>
